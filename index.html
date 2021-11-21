@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+    <style>
+
+        #main{
+            width: 660px;
+            padding: 30px;
+            margin: 250px auto;
+            box-shadow: 0 0 25px black;
+            background-color: cornflowerblue;
+            border-radius: 20px;
+        }
+        body{
+            background-color: coral;
+        }
+        button{
+      border-radius: 25px;
+      background-color: yellowgreen;
+      padding: 10px;
+      margin: 20px;
+      box-shadow: 0 0 10px black;
+      font-size: 20px;
+  }
+  h2:hover{
+      color:rgb(207, 41, 41);
+      
+  }
+  h2{
+      text-align: center;
+      font-size:34px ;
+
+  }
+   
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h2 value="Geekster" id="get">Geekster</h2>
+        <button onclick="F1()" id="Morning" >Good Morning</button>
+        <button onclick="F2()" id="evening">Good Evening</button>
+        <button  onclick="F3()" id="night">Good night</button>
+    </div>
+    <script>
+        function F1(){
+            var getM=document.getElementById('get');
+            getM.innerText="Good Morning Geekster !!!";
+            
+        }
+        function F2(){
+            var getE=document.getElementById('get');
+            getE.innerText="Good Evening Geekster !!!";
+        }
+        function F3(){
+            var getN=document.getElementById('get');
+            getN.innerText="Good night Geekster !!!";
+        }
+    </script>
+    
+</body>
+</html>
